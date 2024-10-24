@@ -1,0 +1,23 @@
+services:
+  malcom:
+    container_name: malcom
+    build: .
+    networks:
+      - default
+    volumes:
+      - ./Malcom:/Malcom
+    privileged: true
+
+  server:
+    container_name: server
+    build: .
+    privileged: true
+    networks:
+      - default
+
+  client:
+    container_name: client
+    build: .
+    privileged: true
+    networks:
+      - default
