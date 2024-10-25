@@ -1,0 +1,1971 @@
+My mac is : 2:42:ac:12:0:3:
+Received msg of len 42
+
+*****************************
+ff ff ff ff ff ff 2 42 ac 12 0 4 8 6 0 1 8 0 6 4 0 1 2 42 ac 12 0 4 ac 12 0 4 0 0 0 0 0 0 ac 12 0 2 
+*****************************
+
+***************************************
+operation is 200: REPLY
+hwsender address 02:42:ac:12:00:03
+target address 02:42:ac:12:00:04
+source ip addr 172:18:0:2
+target ip addr 172:18:0:4
+
+***************************************
+
+***************************************
+operation is 200: REPLY
+hwsender address 02:42:ac:12:00:03
+target address 02:42:ac:12:00:02
+source ip addr 172:18:0:4
+target ip addr 172:18:0:2
+
+***************************************
+
+***************************************
+operation is 100: REQUEST
+hwsender address 02:42:ac:12:00:04
+target address 00:00:00:00:00:00
+source ip addr 172:18:0:4
+target ip addr 172:18:0:2
+
+***************************************
+idx 15
+Sent packet of size 28 to 02:42:ac:12:00:04
+idx 15
+Sent packet of size 28 to 02:42:ac:12:00:02
+Intercepting packet
+Intercepted packet of size : 82 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 68
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 28 ffffff80 18 40 0 58 61 0 0 1 1 8 a 4a ffffff90 ffffffa2 57 ffffffab 7c ffffffd4 24 55 53 45 52 20 61 6e 6f 6e 79 6d 6f 75 73 d a 
+Dumping tcp data char:
+= ( @ X a J W | $ U S E R   a n o n y m o u s 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 82 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 68
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 28 ffffff80 18 40 0 58 61 0 0 1 1 8 a 4a ffffff90 ffffffa2 57 ffffffab 7c ffffffd4 24 55 53 45 52 20 61 6e 6f 6e 79 6d 6f 75 73 d a 
+Dumping tcp data char:
+= ( @ X a J W | $ U S E R   a n o n y m o u s 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffc8 ffffff80 10 1 fffffffe 58 51 0 0 1 1 8 a ffffffab 7c ffffffde 9 4a ffffff90 ffffffa2 57 
+Dumping tcp data char:
+X Q | J W 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 94 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 80
+ip hdr len 20 bytes
+Ip src 172.18.0.3
+Ip dst 172.18.0.2
+Protocol 1 IGMP
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffc8 ffffff80 10 1 fffffffe 58 51 0 0 1 1 8 a ffffffab 7c ffffffde 9 4a ffffff90 ffffffa2 57 
+Dumping tcp data char:
+X Q | J W 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 100 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 86
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffc8 ffffff80 18 1 fffffffe 58 73 0 0 1 1 8 a ffffffab 7c ffffffde 9 4a ffffff90 ffffffa2 57 33 33 31 20 50 6c 65 61 73 65 20 73 70 65 63 69 66 79 20 74 68 65 20 70 61 73 73 77 6f 72 64 2e d a 
+Dumping tcp data char:
+X s | J W 3 3 1   P l e a s e   s p e c i f y   t h e   p a s s w o r d . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 100 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 86
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffc8 ffffff80 18 1 fffffffe 58 73 0 0 1 1 8 a ffffffab 7c ffffffde 9 4a ffffff90 ffffffa2 57 33 33 31 20 50 6c 65 61 73 65 20 73 70 65 63 69 66 79 20 74 68 65 20 70 61 73 73 77 6f 72 64 2e d a 
+Dumping tcp data char:
+X s | J W 3 3 1   P l e a s e   s p e c i f y   t h e   p a s s w o r d . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 4a ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffa2 57 ffffffab 7c ffffffde 9 
+Dumping tcp data char:
+= J @ X Q J W | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 4a ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffa2 57 ffffffab 7c ffffffde 9 
+Dumping tcp data char:
+= J @ X Q J W | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 42 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 6 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 608
+Intercepted packet of size : 42 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 6 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 608
+Intercepted packet of size : 42 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 6 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 608
+Intercepted packet of size : 42 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 6 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 608
+Intercepted packet of size : 93 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 79
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 4a ffffff80 18 40 0 58 6c 0 0 1 1 8 a 4a ffffff90 ffffffc0 5e ffffffab 7c ffffffde 9 50 41 53 53 20 61 6e 6f 6e 79 6d 6f 75 73 40 64 6f 6d 61 69 6e 2e 63 6f 6d d a 
+Dumping tcp data char:
+= J @ X l J ^ | P A S S   a n o n y m o u s @ d o m a i n . c o m 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 121 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 107
+ip hdr len 20 bytes
+Ip src 172.18.0.3
+Ip dst 172.18.0.4
+Protocol 1 IGMP
+Intercepted packet of size : 93 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 79
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 4a ffffff80 18 40 0 58 6c 0 0 1 1 8 a 4a ffffff90 ffffffc0 5e ffffffab 7c ffffffde 9 50 41 53 53 20 61 6e 6f 6e 79 6d 6f 75 73 40 64 6f 6d 61 69 6e 2e 63 6f 6d d a 
+Dumping tcp data char:
+= J @ X l J ^ | P A S S   a n o n y m o u s @ d o m a i n . c o m 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 89 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 75
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffe3 ffffff80 18 1 fffffffe 58 68 0 0 1 1 8 a ffffffab 7c fffffffc 11 4a ffffff90 ffffffc0 5e 32 33 30 20 4c 6f 67 69 6e 20 73 75 63 63 65 73 73 66 75 6c 2e d a 
+Dumping tcp data char:
+X h | J ^ 2 3 0   L o g i n   s u c c e s s f u l . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 117 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 103
+ip hdr len 20 bytes
+Ip src 172.18.0.3
+Ip dst 172.18.0.2
+Protocol 1 IGMP
+Intercepted packet of size : 89 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 75
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffe3 ffffff80 18 1 fffffffe 58 68 0 0 1 1 8 a ffffffab 7c fffffffc 11 4a ffffff90 ffffffc0 5e 32 33 30 20 4c 6f 67 69 6e 20 73 75 63 63 65 73 73 66 75 6c 2e d a 
+Dumping tcp data char:
+X h | J ^ 2 3 0   L o g i n   s u c c e s s f u l . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 61 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 5f ffffffab 7c fffffffc 11 
+Dumping tcp data char:
+= a @ X Q J _ | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 61 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 5f ffffffab 7c fffffffc 11 
+Dumping tcp data char:
+= a @ X Q J _ | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 72 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 58
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 61 ffffff80 18 40 0 58 57 0 0 1 1 8 a 4a ffffff90 ffffffc0 5f ffffffab 7c fffffffc 11 53 59 53 54 d a 
+Dumping tcp data char:
+= a @ X W J _ | S Y S T 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 72 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 58
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 61 ffffff80 18 40 0 58 57 0 0 1 1 8 a 4a ffffff90 ffffffc0 5f ffffffab 7c fffffffc 11 53 59 53 54 d a 
+Dumping tcp data char:
+= a @ X W J _ | S Y S T 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 85 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 71
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffe9 ffffff80 18 1 fffffffe 58 64 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 5f 32 31 35 20 55 4e 49 58 20 54 79 70 65 3a 20 4c 38 d a 
+Dumping tcp data char:
+X d | J _ 2 1 5   U N I X   T y p e :   L 8 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 85 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 71
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffe9 ffffff80 18 1 fffffffe 58 64 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 5f 32 31 35 20 55 4e 49 58 20 54 79 70 65 3a 20 4c 38 d a 
+Dumping tcp data char:
+X d | J _ 2 1 5   U N I X   T y p e :   L 8 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 72 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 58
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 74 ffffff80 18 40 0 58 57 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 46 45 41 54 d a 
+Dumping tcp data char:
+= t @ X W J ` | F E A T 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 72 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 58
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 74 ffffff80 18 40 0 58 57 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 46 45 41 54 d a 
+Dumping tcp data char:
+= t @ X W J ` | F E A T 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 81 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 67
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 60 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 32 31 31 2d 46 65 61 74 75 72 65 73 3a d a 
+Dumping tcp data char:
+X ` | J ` 2 1 1 - F e a t u r e s : 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 81 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 67
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 60 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 32 31 31 2d 46 65 61 74 75 72 65 73 3a d a 
+Dumping tcp data char:
+X ` | J ` 2 1 1 - F e a t u r e s : 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 45 50 52 54 d a 
+Dumping tcp data char:
+X X | J `   E P R T 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 45 50 52 54 d a 
+Dumping tcp data char:
+X X | J `   E P R T 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 45 50 53 56 d a 
+Dumping tcp data char:
+X X | J `   E P S V 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 45 50 53 56 d a 
+Dumping tcp data char:
+X X | J `   E P S V 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffff8a ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J ` | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffff8a ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J ` | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 4d 44 54 4d d a 
+Dumping tcp data char:
+X X | J `   M D T M 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 4d 44 54 4d d a 
+Dumping tcp data char:
+X X | J `   M D T M 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 50 41 53 56 d a 
+Dumping tcp data char:
+X X | J `   P A S V 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffff98 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J ` | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 50 41 53 56 d a 
+Dumping tcp data char:
+X X | J `   P A S V 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffff98 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J ` | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 80 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 66
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 5f 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 52 45 53 54 20 53 54 52 45 41 4d d a 
+Dumping tcp data char:
+X _ | J `   R E S T   S T R E A M 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 80 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 66
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 5f 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 52 45 53 54 20 53 54 52 45 41 4d d a 
+Dumping tcp data char:
+X _ | J `   R E S T   S T R E A M 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 53 49 5a 45 d a 
+Dumping tcp data char:
+X X | J `   S I Z E 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 53 49 5a 45 d a 
+Dumping tcp data char:
+X X | J `   S I Z E 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffad ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J ` | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffad ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J ` | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 54 56 46 53 d a 
+Dumping tcp data char:
+X X | J `   T V F S 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 20 54 56 46 53 d a 
+Dumping tcp data char:
+X X | J `   T V F S 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffbb ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J ` | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffbb ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 60 ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J ` | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 75 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 61
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 5a 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 32 31 31 20 45 6e 64 d a 
+Dumping tcp data char:
+X Z | J ` 2 1 1   E n d 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 75 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 61
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 ffffffef ffffff80 18 1 fffffffe 58 5a 0 0 1 1 8 a ffffffab 7c fffffffc 12 4a ffffff90 ffffffc0 60 32 31 31 20 45 6e 64 d a 
+Dumping tcp data char:
+X Z | J ` 2 1 1   E n d 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffc4 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 ffffff8c ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffc4 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffc0 ffffff8c ffffffab 7c fffffffc 12 
+Dumping tcp data char:
+= @ X Q J | 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 74 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 60
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffc4 ffffff80 18 40 0 58 59 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffec ffffffab 7c fffffffc 12 54 59 50 45 20 49 d a 
+Dumping tcp data char:
+= @ X Y J | T Y P E   I 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 102 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 88
+ip hdr len 20 bytes
+Ip src 172.18.0.3
+Ip dst 172.18.0.4
+Protocol 1 IGMP
+Intercepted packet of size : 74 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 60
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffc4 ffffff80 18 40 0 58 59 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffec ffffffab 7c fffffffc 12 54 59 50 45 20 49 d a 
+Dumping tcp data char:
+= @ X Y J | T Y P E   I 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 97 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 83
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 fffffff7 ffffff80 18 1 fffffffe 58 70 0 0 1 1 8 a ffffffab 7d 8 ffffff9e 4a ffffff90 ffffffcc ffffffec 32 30 30 20 53 77 69 74 63 68 69 6e 67 20 74 6f 20 42 69 6e 61 72 79 20 6d 6f 64 65 2e d a 
+Dumping tcp data char:
+X p } J 2 0 0   S w i t c h i n g   t o   B i n a r y   m o d e . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 125 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 111
+ip hdr len 20 bytes
+Ip src 172.18.0.3
+Ip dst 172.18.0.2
+Protocol 1 IGMP
+Intercepted packet of size : 97 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 83
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb8 fffffff7 ffffff80 18 1 fffffffe 58 70 0 0 1 1 8 a ffffffab 7d 8 ffffff9e 4a ffffff90 ffffffcc ffffffec 32 30 30 20 53 77 69 74 63 68 69 6e 67 20 74 6f 20 42 69 6e 61 72 79 20 6d 6f 64 65 2e d a 
+Dumping tcp data char:
+X p } J 2 0 0   S w i t c h i n g   t o   B i n a r y   m o d e . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffe3 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffec ffffffab 7d 8 ffffff9e 
+Dumping tcp data char:
+= @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffe3 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffec ffffffab 7d 8 ffffff9e 
+Dumping tcp data char:
+= @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 77 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 63
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffe3 ffffff80 18 40 0 58 5c 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9e 53 49 5a 45 20 74 65 73 74 d a 
+Dumping tcp data char:
+= @ X \ J } S I Z E   t e s t 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 77 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 63
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffe3 ffffff80 18 40 0 58 5c 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9e 53 49 5a 45 20 74 65 73 74 d a 
+Dumping tcp data char:
+= @ X \ J } S I Z E   t e s t 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 2 ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 32 31 33 20 35 d a 
+Dumping tcp data char:
+X X } J 2 1 3   5 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 73 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 59
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 2 ffffff80 18 1 fffffffe 58 58 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 32 31 33 20 35 d a 
+Dumping tcp data char:
+X X } J 2 1 3   5 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 72 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 58
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffea ffffff80 18 40 0 58 57 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 45 50 53 56 d a 
+Dumping tcp data char:
+= @ X W J } E P S V 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 72 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 58
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff82 ffffffea ffffff80 18 40 0 58 57 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 45 50 53 56 d a 
+Dumping tcp data char:
+= @ X W J } E P S V 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 114 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 100
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 8 ffffff80 18 1 fffffffe 58 ffffff81 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 32 32 39 20 45 6e 74 65 72 69 6e 67 20 45 78 74 65 6e 64 65 64 20 50 61 73 73 69 76 65 20 4d 6f 64 65 20 28 7c 7c 7c 32 39 36 36 37 7c 29 d a 
+Dumping tcp data char:
+X } J 2 2 9   E n t e r i n g   E x t e n d e d   P a s s i v e   M o d e   ( | | | 2 9 6 6 7 | ) 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 114 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 100
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 8 ffffff80 18 1 fffffffe 58 ffffff81 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 32 32 39 20 45 6e 74 65 72 69 6e 67 20 45 78 74 65 6e 64 65 64 20 50 61 73 73 69 76 65 20 4d 6f 64 65 20 28 7c 7c 7c 32 39 36 36 37 7c 29 d a 
+Dumping tcp data char:
+X } J 2 2 9   E n t e r i n g   E x t e n d e d   P a s s i v e   M o d e   ( | | | 2 9 6 6 7 | ) 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 74 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 60
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 58227
+port source : 56045
+Dumping tcp data hex:
+0 0 ffffffa0 2 ffffffff ffffffff 58 59 0 0 2 4 5 ffffffb4 4 2 8 a 4a ffffff90 ffffffcc ffffffed 0 0 0 0 1 3 3 2 
+Dumping tcp data char:
+X Y J 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 74 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 60
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 58227
+port source : 56045
+Dumping tcp data hex:
+0 0 ffffffa0 2 ffffffff ffffffff 58 59 0 0 2 4 5 ffffffb4 4 2 8 a 4a ffffff90 ffffffcc ffffffed 0 0 0 0 1 3 3 2 
+Dumping tcp data char:
+X Y J 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 74 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 60
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 56045
+port source : 58227
+Dumping tcp data hex:
+3a fffffff7 ffffffa0 12 fffffffe ffffff88 58 59 0 0 2 4 5 ffffffb4 4 2 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 1 3 3 7 
+Dumping tcp data char:
+: X Y } J 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 74 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 60
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 56045
+port source : 58227
+Dumping tcp data hex:
+3a fffffff7 ffffffa0 12 fffffffe ffffff88 58 59 0 0 2 4 5 ffffffb4 4 2 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 1 3 3 7 
+Dumping tcp data char:
+: X Y } J 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 58227
+port source : 56045
+Dumping tcp data hex:
+fffffff8 ffffffcc 55 58 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 
+Dumping tcp data char:
+U X @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 58227
+port source : 56045
+Dumping tcp data hex:
+fffffff8 ffffffcc 55 58 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 
+Dumping tcp data char:
+U X @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 77 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 63
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff83 1a ffffff80 18 40 0 58 5c 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 52 45 54 52 20 74 65 73 74 d a 
+Dumping tcp data char:
+= @ X \ J } R E T R   t e s t 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 77 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 63
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff83 1a ffffff80 18 40 0 58 5c 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 52 45 54 52 20 74 65 73 74 d a 
+Dumping tcp data char:
+= @ X \ J } R E T R   t e s t 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 127 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 113
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 13 ffffff80 18 1 fffffffe 58 ffffff8e 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 31 35 30 20 4f 70 65 6e 69 6e 67 20 42 49 4e 41 52 59 20 6d 6f 64 65 20 64 61 74 61 20 63 6f 6e 6e 65 63 74 69 6f 6e 20 66 6f 72 20 74 65 73 74 20 28 35 20 62 79 74 65 73 29 2e d a 
+Dumping tcp data char:
+X } J 1 5 0   O p e n i n g   B I N A R Y   m o d e   d a t a   c o n n e c t i o n   f o r   t e s t   ( 5   b y t e s ) . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 127 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 113
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 13 ffffff80 18 1 fffffffe 58 ffffff8e 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 31 35 30 20 4f 70 65 6e 69 6e 67 20 42 49 4e 41 52 59 20 6d 6f 64 65 20 64 61 74 61 20 63 6f 6e 6e 65 63 74 69 6f 6e 20 66 6f 72 20 74 65 73 74 20 28 35 20 62 79 74 65 73 29 2e d a 
+Dumping tcp data char:
+X } J 1 5 0   O p e n i n g   B I N A R Y   m o d e   d a t a   c o n n e c t i o n   f o r   t e s t   ( 5   b y t e s ) . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 71 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 57
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 56045
+port source : 58227
+Dumping tcp data hex:
+ffffffe5 23 3a fffffff7 ffffff80 18 1 fffffffe 58 56 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 74 65 73 74 a 
+Dumping tcp data char:
+# : X V } J t e s t 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 71 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 57
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 56045
+port source : 58227
+Dumping tcp data hex:
+ffffffe5 23 3a fffffff7 ffffff80 18 1 fffffffe 58 56 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 74 65 73 74 a 
+Dumping tcp data char:
+# : X V } J t e s t 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 58227
+port source : 56045
+Dumping tcp data hex:
+fffffff8 ffffffcc 55 5d ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 
+Dumping tcp data char:
+U ] @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 58227
+port source : 56045
+Dumping tcp data hex:
+fffffff8 ffffffcc 55 5d ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 
+Dumping tcp data char:
+U ] @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 56045
+port source : 58227
+Dumping tcp data hex:
+ffffffe5 23 3a fffffff7 ffffff80 11 1 fffffffe 58 51 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 
+Dumping tcp data char:
+# : X Q } J 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 56045
+port source : 58227
+Dumping tcp data hex:
+ffffffe5 23 3a fffffff7 ffffff80 11 1 fffffffe 58 51 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 
+Dumping tcp data char:
+# : X Q } J 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 58227
+port source : 56045
+Dumping tcp data hex:
+fffffff8 ffffffcc 55 5e ffffff80 11 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 
+Dumping tcp data char:
+U ^ @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 58227
+port source : 56045
+Dumping tcp data hex:
+fffffff8 ffffffcc 55 5e ffffff80 11 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffed ffffffab 7d 8 ffffff9f 
+Dumping tcp data char:
+U ^ @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 56045
+port source : 58227
+Dumping tcp data hex:
+ffffffe5 23 3a fffffff8 ffffff80 10 1 fffffffe 58 51 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 
+Dumping tcp data char:
+# : X Q } J 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 56045
+port source : 58227
+Dumping tcp data hex:
+ffffffe5 23 3a fffffff8 ffffff80 10 1 fffffffe 58 51 0 0 1 1 8 a ffffffab 7d 8 ffffff9f 4a ffffff90 ffffffcc ffffffed 
+Dumping tcp data char:
+# : X Q } J 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 90 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 76
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 13 ffffff80 18 1 fffffffe 58 69 0 0 1 1 8 a ffffffab 7d 8 ffffffa0 4a ffffff90 ffffffcc ffffffed 32 32 36 20 54 72 61 6e 73 66 65 72 20 63 6f 6d 70 6c 65 74 65 2e d a 
+Dumping tcp data char:
+X i } J 2 2 6   T r a n s f e r   c o m p l e t e . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 90 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 76
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 13 ffffff80 18 1 fffffffe 58 69 0 0 1 1 8 a ffffffab 7d 8 ffffffa0 4a ffffff90 ffffffcc ffffffed 32 32 36 20 54 72 61 6e 73 66 65 72 20 63 6f 6d 70 6c 65 74 65 2e d a 
+Dumping tcp data char:
+X i } J 2 2 6   T r a n s f e r   c o m p l e t e . 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff83 6f ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffee ffffffab 7d 8 ffffff9f 
+Dumping tcp data char:
+= o @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff83 6f ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffee ffffffab 7d 8 ffffff9f 
+Dumping tcp data char:
+= o @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 77 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 63
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff83 6f ffffff80 18 40 0 58 5c 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffee ffffffab 7d 8 ffffff9f 4d 44 54 4d 20 74 65 73 74 d a 
+Dumping tcp data char:
+= o @ X \ J } M D T M   t e s t 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 77 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 63
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff83 6f ffffff80 18 40 0 58 5c 0 0 1 1 8 a 4a ffffff90 ffffffcc ffffffee ffffffab 7d 8 ffffff9f 4d 44 54 4d 20 74 65 73 74 d a 
+Dumping tcp data char:
+= o @ X \ J } M D T M   t e s t 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 86 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 2 8 0 
+********
+mac sender : 02:42:ac:12:00:02
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 72
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 1e ffffff80 18 1 fffffffe 58 65 0 0 1 1 8 a ffffffab 7d 8 ffffffa0 4a ffffff90 ffffffcc ffffffee 32 31 33 20 32 30 32 34 31 30 32 35 31 31 32 36 33 38 d a 
+Dumping tcp data char:
+X e } J 2 1 3   2 0 2 4 1 0 2 5 1 1 2 6 3 8 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 86 
+ether dump: 
+2 42 ffffffac 12 0 4 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:04
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 72
+ip hdr len 20 bytes
+Ip src 172.18.0.2
+Ip dst 172.18.0.4
+Protocol 6 TCP
+port dest : 62160
+port source : 5376
+Dumping tcp data hex:
+ffffffd9 ffffff9f ffffffb9 1e ffffff80 18 1 fffffffe 58 65 0 0 1 1 8 a ffffffab 7d 8 ffffffa0 4a ffffff90 ffffffcc ffffffee 32 31 33 20 32 30 32 34 31 30 32 35 31 31 32 36 33 38 d a 
+Dumping tcp data char:
+X e } J 2 1 3   2 0 2 4 1 0 2 5 1 1 2 6 3 8 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 3 2 42 ffffffac 12 0 4 8 0 
+********
+mac sender : 02:42:ac:12:00:04
+mac dest : 02:42:ac:12:00:03
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff83 ffffff83 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcd 1c ffffffab 7d 8 ffffffa0 
+Dumping tcp data char:
+= @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted packet of size : 66 
+ether dump: 
+2 42 ffffffac 12 0 2 2 42 ffffffac 12 0 3 8 0 
+********
+mac sender : 02:42:ac:12:00:03
+mac dest : 02:42:ac:12:00:02
+Type 8
+!!!!!!!!!!!!!!!!!!!!!!!
+Intercepted IP packet of total len 52
+ip hdr len 20 bytes
+Ip src 172.18.0.4
+Ip dst 172.18.0.2
+Protocol 6 TCP
+port dest : 5376
+port source : 62160
+Dumping tcp data hex:
+3d ffffffbc ffffff83 ffffff83 ffffff80 10 40 0 58 51 0 0 1 1 8 a 4a ffffff90 ffffffcd 1c ffffffab 7d 8 ffffffa0 
+Dumping tcp data char:
+= @ X Q J } 
+!!!!!!!!!!!!!!!!!!!!!!!
