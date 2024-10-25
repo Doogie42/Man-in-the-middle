@@ -9,11 +9,14 @@ services:
     privileged: true
 
   server:
+    image: nginx
     container_name: server
-    build: .
+    # build: .
     privileged: true
     networks:
       - default
+    volumes:
+      - ./website:/usr/share/nginx/html
 
   client:
     container_name: client
